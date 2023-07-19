@@ -1,6 +1,7 @@
 import React from "react";
 import { useRoutes } from "react-router-dom";
 import Home from "./pages/Home/Home";
+import Register from "./pages/Register/Register";
 
 const App = () => {
   const routes = useRoutes([
@@ -10,7 +11,7 @@ const App = () => {
     },
     {
       path: "/register",
-      element: <h1>Register</h1>,
+      element: <Register />,
     },
     {
       path: "/",
